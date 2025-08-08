@@ -556,20 +556,30 @@ video {
   display: none;
 }
 
-.font-opensans{
-  font-family: "open-sans", serif;
+/*Added CSS variables to :root and referenced in tailwind.config.js, providing greater flexibility when changing variable values.*/
+
+:root {
+  --primary-color: #117050;
+  --bg-white-color: #fff;
 }
 
-.font-oswald{
-  font-family: oswald, sans-serif;
+.h-2\.5{
+  height: 0.625rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.h-8{
+  height: 2rem;
 }
 
-.text-base{
-  font-size: 1rem;
-  line-height: 1.5rem;
+.bg-primary{
+  background-color: var(--primary-color);
+}
+
+.p-4{
+  padding: 1rem;
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }

@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@200..700&display=swap");
 
 @tailwind base;
+
+/*Added CSS variables to :root and referenced in tailwind.config.js, providing greater flexibility when changing variable values.*/
+:root {
+  --primary-color: #117050;
+  --bg-white-color: #fff;
+}
+
 @tailwind components;
 @tailwind utilities;
