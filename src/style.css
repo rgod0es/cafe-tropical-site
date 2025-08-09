@@ -563,12 +563,106 @@ video {
   --bg-white-color: #fff;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+
+.m-auto{
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+}
+
 .h-2\.5{
   height: 0.625rem;
 }
 
 .h-8{
   height: 2rem;
+}
+
+.h-10{
+  height: 2.5rem;
+}
+
+.h-56{
+  height: 14rem;
+}
+
+.h-auto{
+  height: auto;
+}
+
+.h-64{
+  height: 16rem;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
+.w-56{
+  width: 14rem;
+}
+
+.w-32{
+  width: 8rem;
+}
+
+.w-16{
+  width: 4rem;
+}
+
+.max-w-5xl{
+  max-width: 64rem;
+}
+
+.flex-initial{
+  flex: 0 1 auto;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .bg-primary{
