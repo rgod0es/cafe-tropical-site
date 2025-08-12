@@ -4,7 +4,7 @@
 
 /*Added CSS variables to :root and referenced in tailwind.config.js, providing greater flexibility when changing variable values.*/
 :root {
-  --primary-color: #117050;
+  --primary-color: #1da475;
   --bg-white-color: #fff;
 }
 

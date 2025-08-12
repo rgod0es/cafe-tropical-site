@@ -559,7 +559,7 @@ video {
 /*Added CSS variables to :root and referenced in tailwind.config.js, providing greater flexibility when changing variable values.*/
 
 :root {
-  --primary-color: #117050;
+  --primary-color: #1da475;
   --bg-white-color: #fff;
 }
 
@@ -609,36 +609,8 @@ video {
   height: 0.625rem;
 }
 
-.h-8{
-  height: 2rem;
-}
-
-.h-10{
-  height: 2.5rem;
-}
-
-.h-56{
-  height: 14rem;
-}
-
 .h-auto{
   height: auto;
-}
-
-.h-64{
-  height: 16rem;
-}
-
-.w-10{
-  width: 2.5rem;
-}
-
-.w-56{
-  width: 14rem;
-}
-
-.w-32{
-  width: 8rem;
 }
 
 .w-16{
@@ -649,16 +621,8 @@ video {
   max-width: 64rem;
 }
 
-.flex-initial{
-  flex: 0 1 auto;
-}
-
 .items-center{
   align-items: center;
-}
-
-.justify-center{
-  justify-content: center;
 }
 
 .justify-between{
@@ -684,20 +648,6 @@ video {
 
 .p-4{
   padding: 1rem;
-}
-
-.p-\[7px\]{
-  padding: 7px;
-}
-
-.px-2\.5{
-  padding-left: 0.625rem;
-  padding-right: 0.625rem;
-}
-
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .px-\[10px\]{
