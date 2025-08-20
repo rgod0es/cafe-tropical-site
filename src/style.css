@@ -559,7 +559,7 @@ video {
 /*Added CSS variables to :root and referenced in tailwind.config.js, providing greater flexibility when changing variable values.*/
 
 :root {
-  --primary-color: #1da475;
+  --primary-color: #38d59e;
   --bg-white-color: #fff;
 }
 
@@ -605,8 +605,8 @@ video {
   display: flex;
 }
 
-.h-2\.5{
-  height: 0.625rem;
+.h-2{
+  height: 0.5rem;
 }
 
 .h-auto{
@@ -646,8 +646,8 @@ video {
   background-color: var(--primary-color);
 }
 
-.p-4{
-  padding: 1rem;
+.p-2{
+  padding: 0.5rem;
 }
 
 .px-\[10px\]{
